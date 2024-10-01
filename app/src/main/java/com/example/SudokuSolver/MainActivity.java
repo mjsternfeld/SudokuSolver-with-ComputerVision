@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
                 sudokuButton.setText("");
             }
         });
+        numpadGrid.addView(clearButton);
 
         //this button provides a hint (i.e. the correct digit for the selected cell) and inserts it into the grid
         Button hintButton = new Button(new ContextThemeWrapper(this, style.NumpadButtonStyle));
